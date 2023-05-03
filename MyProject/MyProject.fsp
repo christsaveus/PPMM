@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<FEBioStudioProject version="1.0">
+	<file path="..\..\Desktop\main_body.inp"/>
+	<file path="Model1.fs2"/>
+	<file path="..\Tutorials\Mesh Convergence Tutorial\MeshConvergenceBeam.fsprj"/>
+	<file path="MeshConvergenceBeam.fsprj.fs2"/>
+	<file path="contact_force.fsm"/>
+</FEBioStudioProject>
