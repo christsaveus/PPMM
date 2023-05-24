@@ -89,9 +89,31 @@
 			<E>210000</E>
 			<v>0.33</v>
 		</material>
+		<material id="4" name="0" type="isotropic elastic">
+			<density>1</density>
+			<E>210000</E>
+			<v>0.33</v>
+		</material>
+		<material id="5" name="1" type="Ogden">
+			<density>1</density>
+			<k>0</k>
+			<pressure_model>default</pressure_model>
+			<c1 type="map" />
+			<c2>3</c2>
+			<c3>0</c3>
+			<c4>0</c4>
+			<c5>0</c5>
+			<c6>0</c6>
+			<m1>4</m1>
+			<m2>1</m2>
+			<m3>1</m3>
+			<m4>1</m4>
+			<m5>1</m5>
+			<m6>1</m6>
+		</material>
 	</Material>
 	<Mesh>
-		<Nodes name="Main-1">
+		<Nodes name="fix_mat">
 			<node id="1">-1,-41.8555489,49.118618</node>
 			<node id="2">-1,-42,52.5</node>
 			<node id="3">-1,-48.5950317,49.397541</node>
@@ -9462,8 +9484,6 @@
 			<node id="9368">1,47.6277122,-42.2628441</node>
 			<node id="9369">1,40.3681717,-46.00914</node>
 			<node id="9370">1,40.1368828,-46.885807</node>
-		</Nodes>
-		<Nodes name="moving_mat">
 			<node id="9371">-1,-75,58</node>
 			<node id="9372">-1,-75,57</node>
 			<node id="9373">-1,75,57</node>
@@ -9472,8 +9492,6 @@
 			<node id="9376">1,-75,57</node>
 			<node id="9377">1,75,57</node>
 			<node id="9378">1,75,58</node>
-		</Nodes>
-		<Nodes name="fix_mat">
 			<node id="9379">-1,-75,-55</node>
 			<node id="9380">-1,-75,-56</node>
 			<node id="9381">-1,75,-56</node>
