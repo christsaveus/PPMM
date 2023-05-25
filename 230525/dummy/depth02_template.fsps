@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<febiostudio_post_session version="2.0">
+	<model file="C:\Users\milab\Desktop\230503\jobs\depth02_template.xplt"/>
+	<material id="1" name="fix_mat">
+		<diffuse>240,164,96</diffuse>
+		<ambient>240,164,96</ambient>
+		<specular>128,128,128</specular>
+		<emission>0,0,0</emission>
+		<mesh_color>0,0,0</mesh_color>
+		<shininess>0.5</shininess>
+		<transparency>1</transparency>
+	</material>
+	<material id="2" name="main_body">
+		<diffuse>240,240,0</diffuse>
+		<ambient>240,240,0</ambient>
+		<specular>128,128,128</specular>
+		<emission>0,0,0</emission>
+		<mesh_color>0,0,0</mesh_color>
+		<shininess>0.5</shininess>
+		<transparency>1</transparency>
+	</material>
+	<material id="3" name="Material3">
+		<diffuse>240,0,240</diffuse>
+		<ambient>240,0,240</ambient>
+		<specular>128,128,128</specular>
+		<emission>0,0,0</emission>
+		<mesh_color>0,0,0</mesh_color>
+		<shininess>0.5</shininess>
+		<transparency>1</transparency>
+	</material>
+	<datafield name="Lagrange strain">
+		<ref_state>-1</ref_state>
+	</datafield>
+</febiostudio_post_session>
